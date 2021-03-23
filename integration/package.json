@@ -1,0 +1,21 @@
+{
+	"name": "integration",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"ts-node": "^9.1.1"
+	},
+	"dependencies": {
+		"@music-sdk/album": "0.0.1",
+		"@music-sdk/artist": "0.0.1",
+		"@music-sdk/song": "0.0.1"
+	}
+}
