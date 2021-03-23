@@ -1,27 +1,30 @@
 {
-  "name": "@music-sdk/artist",
-  "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Cerino Ligutom III <zeferinix@gmail.com>",
-  "homepage": "https://github.com/cerino-ligutom/monorepo-lerna-publish-npm-experiment#readme",
-  "license": "ISC",
-  "main": "lib/artist.js",
-  "typings": "lib/artist.d.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cerino-ligutom/monorepo-lerna-publish-npm-experiment.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/cerino-ligutom/monorepo-lerna-publish-npm-experiment/issues"
-  }
+	"name": "@music-sdk/artist",
+	"version": "0.0.0",
+	"description": "> TODO: description",
+	"author": "Cerino Ligutom III <zeferinix@gmail.com>",
+	"homepage": "https://github.com/cerino-ligutom/monorepo-lerna-publish-npm-experiment#readme",
+	"license": "ISC",
+	"main": "lib/artist.js",
+	"typings": "lib/artist.d.ts",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cerino-ligutom/monorepo-lerna-publish-npm-experiment.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: run tests from root\" && exit 1"
+	},
+	"bugs": {
+		"url": "https://github.com/cerino-ligutom/monorepo-lerna-publish-npm-experiment/issues"
+	}
 }
